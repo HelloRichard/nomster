@@ -5,4 +5,5 @@ class ApplicationController < ActionController::Base
     @places = Place.all
   end
   protect_from_forgery with: :exception
+
 end
