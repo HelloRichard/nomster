@@ -26,8 +26,8 @@
       <ul class="nav navbar-nav">
         <li>
           <%= link_to new_place_path do %>
-          <i class="glyphicon glyphicon-plus-sign"></i>
           New Place
+          <i class="glyphicon glyphicon-plus-sign"></i>
           <% end %>
         </li>
       </ul>
@@ -35,7 +35,7 @@
         <% if user_signed_in? %>
           <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
         <% else %>
-          <li><%= link_to 'Signed in', new_user_session_path %></li>
+          <li><%= link_to 'Sign in', new_user_session_path %></li>
           <li><%= link_to 'Sign up', new_user_registration_path %></li>
         <% end %>
         <li><a href="#">Link</a></li>
