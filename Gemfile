@@ -6,7 +6,7 @@ gem 'will_paginate'
 gem 'simple_form'
 gem 'devise'
 gem 'geocoder'
-gem "figaro"
+gem "figaro", ">= 1.0.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
