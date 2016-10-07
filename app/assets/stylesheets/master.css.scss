@@ -6,6 +6,9 @@ body {
   background: url('/assets/sayagata-400px.png');
    font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
+.clear {
+    clear: both;
+}
 .field_with_errors {
   color: #ff3333;
   background-color: #FFEEEE;
