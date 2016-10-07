@@ -5,6 +5,8 @@ gem 'sprockets', '2.12.4'
 gem 'will_paginate'
 gem 'simple_form'
 gem 'devise'
+gem 'geocoder'
+gem "figaro"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
