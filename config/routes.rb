@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :places, only: [:index]
   root to: "places#index"
   resources :places
